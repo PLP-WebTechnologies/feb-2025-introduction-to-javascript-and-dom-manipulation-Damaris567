@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dynamic Web Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>Contact Us</li>
+                    <li>About Us</li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="section1">
+                <p id="dynamic-text">Welcome to our website! Click the button below to change this text.</p>
+                <button id="change-text-btn">Change Text</button>
+            </section>
+
+            <section class="section2">
+                <h2>Our Gallery</h2>
+                <div id="gallery">
+                    <img src="image 1.jpg" width="200" height="200" >
+                    <img src="image 2.jpg" width="200" height="200" >
+                    <img src="image 3.jpg" width="200" height="200" >
+                </div>
+                <button id="add-image-btn">Add Image</button>
+                <button id="remove-image-btn">Remove Image</button>
+            </section>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>
